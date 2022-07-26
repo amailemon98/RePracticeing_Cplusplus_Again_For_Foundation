@@ -59,3 +59,28 @@ int main() {
 	z = 3;
 	std::cout << "x : " << x << " y : " << y << " z : " << z << std::endl;
 }*/
+//리터럴 배우기
+/*
+#include <iostream>
+
+int main() {
+	char str[] = "hello";
+
+	str[1] = 'a';
+
+	std::cout << str;
+
+	return 0;
+}*/
+/*
+#include <iostream>
+
+int main() {
+	const char* pstr = "goodbye";
+	//char* pstr2 = "goodbye";//goodbye는 문자열리터럴로써 text segment의 주소값을 넣을 수 없다.
+	//그렇기에 상수인 함수로 구현해야한다.
+
+	std::cout << pstr << '\n';
+	//std::cout << pstr2 << '\n';
+}
+*/
