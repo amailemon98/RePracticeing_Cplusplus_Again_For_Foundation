@@ -83,7 +83,7 @@ int main() {
 	std::cout << pstr << '\n';
 	//std::cout << pstr2 << '\n';
 }
-*/
+*//*
 #include <iostream>
 
 int main() {
@@ -95,5 +95,16 @@ int main() {
 	ref[2] = 1;
 
 	std::cout << arr[0] << arr[1] << arr[2] << std::endl;
+	return 0;
+}*/
+
+#include <iostream>
+
+int function() {
+	int a = 2;
+	return a;
+}
+int main() {
+	int b = function();
 	return 0;
 }
