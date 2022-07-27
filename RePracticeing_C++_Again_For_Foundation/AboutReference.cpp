@@ -97,7 +97,7 @@ int main() {
 	std::cout << arr[0] << arr[1] << arr[2] << std::endl;
 	return 0;
 }*/
-
+/*
 #include <iostream>
 
 int function() {
@@ -107,4 +107,27 @@ int function() {
 int main() {
 	int b = function();
 	return 0;
+}*//*
+#include <iostream>
+
+int& function(int& a) {
+	a = 5;
+	return a;
 }
+
+int main() {
+	int b = 2;
+	int c = function(b);
+	std::cout << c;
+	return 0;
+}*//*
+#include <iostream>
+int& function() {
+	int a = 5;
+	return a;
+}
+int main() {
+	const int& c = function();
+	std::cout << "c : " << c;
+	return 0;
+}*/
