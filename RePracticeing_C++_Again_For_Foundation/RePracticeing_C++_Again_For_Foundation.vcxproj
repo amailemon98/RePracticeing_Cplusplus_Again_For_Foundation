@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AboutReference.cpp" />
+    <ClCompile Include="NewAndDelete.cpp" />
     <ClCompile Include="Practice_1(20220724).cpp" />
   </ItemGroup>
   <ItemGroup>

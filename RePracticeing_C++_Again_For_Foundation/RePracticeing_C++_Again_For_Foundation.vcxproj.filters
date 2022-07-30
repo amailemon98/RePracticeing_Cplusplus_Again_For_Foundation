@@ -21,6 +21,9 @@
     <ClCompile Include="AboutReference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NewAndDelete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header1.h">
