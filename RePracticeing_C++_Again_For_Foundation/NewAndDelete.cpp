@@ -9,7 +9,7 @@ int main() { //new와 delete의 사용
 	delete p; //마련한 p의 공간을 풀어준다.
 	return 0;
 }*/
-
+/*
 #include <iostream>
 
 int main() {
@@ -25,4 +25,19 @@ int main() {
 	}
 	delete[] list;
 	return 0;
+}*/
+
+//돌아온 마이펫
+#include <iostream>
+
+struct Animal {
+	char name[30];
+	int age;
+	int health;
+	int food;
+	int clean;
+};
+
+int main() {
+
 }
