@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="AboutReference.cpp" />
     <ClCompile Include="NewAndDelete.cpp" />
+    <ClCompile Include="Pointer.c" />
     <ClCompile Include="Practice_1(20220724).cpp" />
   </ItemGroup>
   <ItemGroup>

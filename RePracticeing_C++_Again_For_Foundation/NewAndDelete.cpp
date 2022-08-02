@@ -26,7 +26,7 @@ int main() {
 	delete[] list;
 	return 0;
 }*/
-
+/*
 //돌아온 마이펫
 #include <iostream>
 
@@ -40,4 +40,4 @@ struct Animal {
 
 int main() {
 
-}
+}*/
